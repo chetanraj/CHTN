@@ -70,7 +70,7 @@ function createTrayMenu() {
 }
 
 app.on('ready', () => {
-	const name = 'tray-icon-Template';
+	const name = 'icon-c';
 	tray = new Tray(path.join(__dirname, `${name}.png`));
 
 	createTrayMenu();

@@ -1,17 +1,34 @@
 {
-  "name": "jsessentials-electron",
+  "name": "chetanraj-electron-tray-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Electron Tray App",
   "main": "app.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --prune --asar",
+    "test": "xo"
   },
   "author": "Chetan Raj<chetan.narian@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetanraj/chetanraj-electron-tray-app.git"
+  },
+  "keywords": [
+    "electron",
+    "chetan",
+    "raj",
+    "npm"
+  ],
   "license": "MIT",
   "devDependencies": {
+    "electron-packager": "^8.4.0",
     "electron-prebuilt": "^1.4.13",
     "github": "^7.1.0",
     "node-rest-client": "^2.0.1",
     "xo": "^0.17.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/chetanraj/chetanraj-electron-tray-app/issues"
+  },
+  "homepage": "https://github.com/chetanraj/chetanraj-electron-tray-app#readme"
 }
