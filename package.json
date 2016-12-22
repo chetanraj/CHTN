@@ -1,0 +1,17 @@
+{
+  "name": "jsessentials-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Chetan Raj<chetan.narian@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13",
+    "github": "^7.1.0",
+    "node-rest-client": "^2.0.1",
+    "xo": "^0.17.1"
+  }
+}
